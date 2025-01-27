@@ -22,20 +22,17 @@ Our pipeline consists of:
 The pipeline flow is visualized in the following figures:
 
 ### 1. MemeCraft Framework
-[Insert Image Here: Screenshot 2025-01-27 at 11.23.43.png]
+<img width="864" alt="Screenshot 2025-01-27 at 11 23 43" src="https://github.com/user-attachments/assets/1ebeb5b2-0bf4-407c-88d2-a8ced39755ca" />
 This image demonstrates how the system selects templates, generates captions, and overlays text.
 
 ### 2. System Scheme
-[Insert Image Here: Screenshot 2025-01-27 at 11.23.51.png]
+<img width="1077" alt="Screenshot 2025-01-27 at 11 23 51" src="https://github.com/user-attachments/assets/dfad3c03-ce10-418e-ae9d-0e6edb3dc6a7" />
 This figure shows the high-level steps from user input to the final meme GIF creation.
 
 ### 3. Example User Prompts and Results
-[Insert Image Here: Screenshot 2025-01-27 at 11.24.29.png]
+<img width="1357" alt="Screenshot 2025-01-27 at 11 24 29" src="https://github.com/user-attachments/assets/e0b61f2c-812d-4109-b450-4b0e83c4e785" />
 The table provides examples of prompts, the generated captions, and the resulting GIFs.
 
-### 4. Output Alignment and Quality
-[Insert Image Here: Screenshot 2025-01-27 at 11.24.57.png]
-This evaluation chart explains how the generated content aligns with the user’s prompt, template quality, and output fidelity.
 
 ---
 
@@ -51,17 +48,16 @@ This evaluation chart explains how the generated content aligns with the user’
 
 Below are some examples of prompts and the generated GIFs:
 
-1. Prompt: **"Work struggles"**
-   - Caption: "When bae says 'I love you' but your boss says 'I love profit'"
-   - [Generated GIF Placeholder]
+1. ![output_gif_3](https://github.com/user-attachments/assets/27e0ae26-e1f4-4715-ac34-fee1437031f2)
 
-2. Prompt: **"Cooking disasters"**
-   - Caption: "When life gives you lemons, make lemonade. When life gives you a cooking disaster, make a fire extinguisher."
-   - [Generated GIF Placeholder]
+2.![output_gif_17](https://github.com/user-attachments/assets/01d74a7b-705a-4c44-b1db-ec2c2d8165fd)
 
-3. Prompt: **"Netflix binging"**
-   - Caption: "When Netflix binges, I'm not binge-watching. I'm just casually ignoring my responsibilities for the next 3 days."
-   - [Generated GIF Placeholder]
+3. ![output_gif_32](https://github.com/user-attachments/assets/03a41a2f-7e3a-4610-95e4-e3d070f50f10)
+
+4. ![output_gif_47](https://github.com/user-attachments/assets/5c729d06-5647-42c7-bf51-38dffd0d1cbc)
+
+5. ![output_gif_87](https://github.com/user-attachments/assets/e54443e0-c989-485c-b35a-7d5dec9e028f)
+   
 
 ---
 
