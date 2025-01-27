@@ -12,7 +12,6 @@ from text2vec import *
 from argparse import ArgumentParser
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
-hf_token = "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"
 login(token=hf_token)
 pipe = pipeline("text-generation", model="meta-llama/Llama-3.2-3B-Instruct")
 sentence_encoder = SentenceTransformer('all-MiniLM-L6-v2')
