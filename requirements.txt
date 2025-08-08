@@ -1,0 +1,29 @@
+# Core Dependencies
+torch>=2.0.0
+torchvision
+diffusers>=0.21.0
+transformers>=4.30.0
+huggingface_hub>=0.16.0
+
+# Image and Video Processing
+Pillow>=9.0.0
+matplotlib>=3.5.0
+
+# Text Processing and Embeddings
+sentence-transformers>=2.2.0
+gensim>=4.3.0
+
+# Search and Similarity
+faiss-cpu>=1.7.4
+numpy>=1.21.0
+
+# Google Generative AI
+google-generativeai>=0.3.0
+
+# Utilities
+tqdm>=4.64.0
+argparse
+
+# Optional: For better performance
+# faiss-gpu  # Use instead of faiss-cpu if you have GPU
+# accelerate  # For better model loading
