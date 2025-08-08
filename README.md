@@ -73,9 +73,9 @@ Real-world examples showcasing the variety and quality of generated content:
 
 ---
 
-## 🎯 Example Generated Memes
+## 🎯 Example Generated GIFs
 
-Here are some examples of prompts and the AI-generated animated memes:
+Here are some examples of prompts and the AI-generated animated GIFs:
 
 ### 1. Classic Reaction Meme
 ![Meme Example 1](images_for_readme/output_gif_3.gif)
@@ -239,66 +239,6 @@ export CUDA_VISIBLE_DEVICES="0"  # GPU selection
 
 ---
 
-## 📊 Performance & Optimization
-
-### Memory Usage
-- **Minimum**: 8GB RAM, 4GB VRAM
-- **Recommended**: 16GB RAM, 8GB VRAM
-- **Optimal**: 32GB RAM, 12GB+ VRAM
-
-### Speed Benchmarks
-| Component | CPU (avg) | GPU (avg) |
-|-----------|-----------|-----------|
-| Text Generation | 2-3s | 0.5-1s |
-| Template Matching | 0.1-0.2s | 0.05s |
-| Video Generation | 60-120s | 15-30s |
-| Text Overlay | 0.5-1s | 0.1s |
-
-### Optimization Tips
-- Enable model CPU offloading for limited VRAM
-- Use mixed precision (fp16) for faster inference
-- Batch process multiple prompts for efficiency
-- Cache template embeddings for repeated use
-
----
-
-## 🤝 Contributing
-
-We welcome contributions! Here's how you can help:
-
-### Development Setup
-
-```bash
-# Fork and clone the repository
-git clone https://github.com/your-username/gif_maker_AI.git
-
-# Create a development branch
-git checkout -b feature/your-feature-name
-
-# Install development dependencies
-pip install -r requirements-dev.txt
-
-# Run tests
-python -m pytest tests/
-```
-
-### Contribution Guidelines
-
-1. **Code Style**: Follow PEP 8 and use `black` for formatting
-2. **Testing**: Add tests for new features
-3. **Documentation**: Update README and docstrings
-4. **Commits**: Use conventional commit messages
-
-### Areas for Contribution
-
-- 🎨 New meme templates and styles
-- 🚀 Performance optimizations
-- 🧪 Additional AI models integration
-- 📱 Web interface development
-- 🐛 Bug fixes and improvements
-
----
-
 ## 🐛 Troubleshooting
 
 ### Common Issues
@@ -339,48 +279,6 @@ A: Modify `TEXT_GENERATION_MODEL` in `config/settings.py`.
 A: Yes, but expect significantly slower generation times (10-20x slower).
 
 ---
-
-## 📜 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-```
-MIT License
-
-Copyright (c) 2025 Roy Ayalon
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-```
-
----
-
-## 🙏 Acknowledgments
-
-### Models and Frameworks
-- **Meta AI** - Llama 3.2 language model
-- **Stability AI** - Stable Diffusion and Video Diffusion models
-- **Hugging Face** - Model hosting and transformers library
-- **Google** - Generative AI APIs and tools
-
-### Datasets and Resources
-- **Imgflip** - Meme template database
-- **Internet Meme Community** - Template descriptions and cultural context
-
-### Development Tools
-- **PyTorch Team** - Deep learning framework
-- **Diffusers Team** - Diffusion model implementations
-- **Open Source Community** - Various utility libraries
-
----
-
 ## 📈 Roadmap
 
 ### Version 1.1 (Coming Soon)
@@ -403,24 +301,6 @@ copies or substantial portions of the Software.
 
 ---
 
-## 📞 Support
-
-- 🐛 **Bug Reports**: [Create an issue](https://github.com/Roy-Ayalon/gif_maker_AI/issues)
-- 💡 **Feature Requests**: [Discussion board](https://github.com/Roy-Ayalon/gif_maker_AI/discussions)
-- 📧 **Email**: contact@royayalon.dev
-- 💬 **Discord**: [Join our community](#)
-
----
-
-## ⭐ Star History
-
-If you found this project helpful, please consider giving it a star! ⭐
-
-[![Star History Chart](https://api.star-history.com/svg?repos=Roy-Ayalon/gif_maker_AI&type=Date)](https://star-history.com/#Roy-Ayalon/gif_maker_AI&Date)
-
----
-
-<div align="center">
 
 **Made with ❤️ by [Roy Ayalon](https://github.com/Roy-Ayalon)**
 
